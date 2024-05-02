@@ -5,7 +5,7 @@
 
 count=1
 
-while [ $count -ls 20 ]
+while [ $count -lt 20 ]
 do
 	echo "$count"
 	case $count in 
