@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #displays the content of a directory in a list format
 
-list-$(ls)
+list="$(ls)"
 for i in $list; do
 	echo "$i" | cut -d '-' -f2
 done
