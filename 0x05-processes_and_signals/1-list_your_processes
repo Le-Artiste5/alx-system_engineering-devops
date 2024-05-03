@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Displaying the PID and other elements
+#including those that dont have TTY
+
+ps -a -x -u -f
