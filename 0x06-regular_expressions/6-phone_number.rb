@@ -1,3 +1,3 @@
-#!/usr/nin/env ruby
+#!/usr/bin/env ruby
 
-puts ARGV[0].scan(/^\d+(0,9)$/).join
+puts ARGV[0].scan(/^[0-9]{10}$/).join
